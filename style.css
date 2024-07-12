@@ -1,0 +1,24 @@
+body{
+    background-image: url(./background.jpg);
+}
+img {
+    width: 200px;
+    height: 150px;
+    margin-right:1100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+}
+
+a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
