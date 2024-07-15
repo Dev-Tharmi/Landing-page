@@ -1,0 +1,57 @@
+body{
+    background-image: url(./login.jpg);
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+form{
+    border: 5px solid rgb(132, 132, 161);
+    border-radius: 15px;
+    /* margin-left: 30%; */
+    width: 550px;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 20%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    margin-left: 15px;
+    
+}
+
+h2{
+    color: azure;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+input{
+    font-size: 20px;
+    margin-left: 100px;
+    background: none;
+    border-radius: 10px;
+    height: 30px;
+    background: #00000040;
+    box-shadow: none;
+    height: 40px;
+    border: 1px solid ;
+}
+.btn-login button{
+    background: none;
+    border: none;
+    background-color: aqua;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 34%;
+    margin-top: 50px;
+}
+input::placeholder{
+    color: aliceblue;
+}

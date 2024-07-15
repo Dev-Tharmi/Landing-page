@@ -22,3 +22,11 @@ a {
     font-weight: 600;
     font-family: sans-serif;
 }
+.btn-login{
+    width: 75%;
+    height: 25%;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: aqua;
+
+}
