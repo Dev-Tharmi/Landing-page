@@ -62,9 +62,14 @@ input::placeholder {
 }
 
 @media (max-width: 1024px) {
+    body {
+        background-size: 100% 1200px;
+        background-repeat: no-repeat;
+    }
+
     form {
         width: 450px;
-        margin-left: 20%;
+        margin-left: 22%;
         margin-top: 15%;
     }
 
@@ -89,13 +94,14 @@ input::placeholder {
 /* Phones and smaller tablets */
 @media (max-width: 768px) {
     body {
-        background-size: cover;
+        background-size: 100% 1000px;
+        background-repeat: no-repeat;
     }
 
     form {
         width: 350px;
-        margin-left: 10%;
-        margin-top: 10%;
+        margin-left: 26%;
+        margin-top: 30%;
     }
 
     .login-content {
@@ -125,7 +131,7 @@ input::placeholder {
     form {
         width: 90%;
         margin-left: 5%;
-        margin-top: 5%;
+        margin-top: 45%;
     }
 
     .login-content {
